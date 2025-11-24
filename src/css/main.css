@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+
 }
 
 a {
@@ -11,4 +12,9 @@ a {
 img,
 video {
   display: block;
+}
+body{
+    min-height: 129px;
+    max-width: 574px;
+    margin: 50px 0 0 50px;
 }
