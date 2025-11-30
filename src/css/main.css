@@ -17,4 +17,40 @@ body{
     min-height: 129px;
     max-width: 574px;
     margin: 50px 0 0 50px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background: #FF844C;
+    border-radius: 20px;
+    color: aliceblue;
+}
+.day {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 18px;
+    text-align: center;
+    border-radius: 24px;
+    height: 109px;
+}
+span {
+   letter-spacing: 0%;
+   line-height: 24px;
+}
+span:first-child {
+    font-size: 35px;
+}
+span:last-child {
+    font-size: 23px;
+    opacity: 0.6;
+}
+
+.day:hover {
+    background: #fff;
+    color: #000;
+    cursor: pointer;
 }
